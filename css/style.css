@@ -1,3 +1,32 @@
+:root {
+    --cor-fundo: #f4f1de;
+    --cor-cartao: #dbbea1;
+    --cor-texto: #1E2A38;
+    --cor-destaque: #57467b;
+}
+
+.pagina{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family:"Public Sans", sans-serif;
+}
+
 .cartao{
-    border: 3px solid rebeccapurple;
+    background-color: var(--cor-cartao);
+    border: 2px solid var(--cor-destaque);
+    text-align: center;
+}
+
+.cartao-foto{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.cartao-funcao{
+    color: var(--cor-destaque);
+}
+
+.cartao-link{
+    color:var(--cor-destaque);
+    font-weight: 600;
 }
