@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulos Techers - Isac Alves</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cor-fundo: #f4f1de;
+            --cor-cartao: #dbbea1;
+            --cor-texto: #1E2A38;
+            --cor-destaque: #000000;
+        }
+
+        body {
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            font-family: "Public Sans", sans-serif;
+            margin: 0;
+            padding: 24px;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .foto {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+            border: 2px solid var(--cor-destaque);
+        }
+
+        h1 {
+            margin: 16px 0 4px;
+        }
+
+        .subtitulo {
+            margin: 0 0 32px;
+        }
+
+        .modulos {
+            display: grid;
+            gap: 16px;
+        }
+
+        .modulo {
+            display: block;
+            background-color: var(--cor-cartao);
+            border: 2px solid var(--cor-destaque);
+            border-radius: 16px;
+            padding: 20px;
+            color: var(--cor-texto);
+            text-decoration: none;
+            text-align: left;
+            transition: transform 0.15s;
+        }
+
+        .modulo:hover {
+            transform: translateY(-3px);
+        }
+
+        .modulo h2 {
+            margin: 0 0 6px;
+            font-size: 1.15rem;
+        }
+
+        .modulo p {
+            margin: 0;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--cor-texto);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img class="foto" src="Modulo1-sobre-mim/imagens/eu.png" alt="Foto de Isac Alves">
+        <h1>Módulos Techers</h1>
+        <p class="subtitulo">Projetos que fiz nos módulos da Techers.</p>
+
+        <section class="modulos">
+            <a class="modulo" href="Modulo1-sobre-mim/">
+                <h2>Módulo 1 · Sobre mim</h2>
+                <p>Página sobre mim com HTML semântico.</p>
+            </a>
+            <a class="modulo" href="Modulo2-cartao/">
+                <h2>Módulo 2 · Cartão de visitas</h2>
+                <p>Cartão de visitas com HTML e CSS.</p>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Feito por Isac Alves ·
+            <a href="https://github.com/LHAMA-prog" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>

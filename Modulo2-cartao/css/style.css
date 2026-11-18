@@ -1,19 +1,19 @@
 :root {
     --cor-fundo: #f4f1de;
     --cor-cartao: #dbbea1;
-    --cor-texto: #1E2A38;
+    --cor-texto: #1e2a38;
     --cor-destaque: #000000;
 }
 
-.pagina{
+.pagina {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    font-family:"Public Sans", sans-serif;
+    font-family: "Public Sans", sans-serif;
     margin: 0;
     padding: 24px;
 }
 
-.cartao{
+.cartao {
     background-color: var(--cor-cartao);
     border: 2px solid var(--cor-destaque);
     text-align: center;
@@ -25,31 +25,32 @@
     box-sizing: border-box;
 }
 
-.cartao-foto{
+.cartao-foto {
     width: 120px;
     height: 120px;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
+    border: 2px solid var(--cor-destaque);
 }
 
-.cartao-nome{
+.cartao-nome {
     margin: 12px 0 4px;
 }
 
-.cartao-funcao{
+.cartao-funcao {
     color: var(--cor-destaque);
     margin: 0 0 20px;
 }
 
-.cartao-links{
+.cartao-links {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.cartao-link{
-    color:var(--cor-destaque);
+.cartao-link {
+    color: var(--cor-destaque);
     font-weight: 600;
     display: block;
     padding: 10px;
